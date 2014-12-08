@@ -1,19 +1,19 @@
 ---
 layout: bootcamp
 root: .
-venue: Cornell University
-address: Mann Library, Room B30A, 237 Mann Drive, Ithaca, NY
+venue: University of Maryland
+address: 2119 Hornbake South, College Park, MD
 country: United-States
 humandate: Jan 15-16, 2015
 humantime: 9:00 am - 5 pm
 startdate: 2015-01-15
 enddate: 2015-01-016
-latlng: 42.448938, -76.476148
-registration: restricted
-instructor: ["Erika Mudrak (CSCU)", "Jeramia Ory (Kings College)", "Emily Davenport (Cornell)"]
+latlng: 38.988202,-76.941699
+registration: open
+instructor: ["Ian Munoz (SESYNC)", "Mike Smorul (SESYNC)"]
 assistant: [] 
-contact: mudrak@cornell.edu
-raw: raw.github.com/emudrak/2015-01-15-cornell/gh-pages
+contact: msmorul@sesync.org
+raw: raw.github.com/sesync-ci/2015-01-15-umd/gh-pages
 eventbrite:
 ---
 <!--
@@ -39,13 +39,13 @@ Our curriculum includes:
 <li>  Day 1 morning: Getting data out of Excel and into more powerful tools
 <li>  Day 1 afternoon: Managing data in R.
 <li>  Day 2 morning: Introduction to databases, combining and querying data using SQL.
-<li>  Day 2 afternoon: Collaborative data management & publishing data.
+<li>  Day 2 afternoon: An end-to-end example showing one possible workflow
 </ul>
 The concepts, skills, and tools we teach are domain-independent, but example problem cases and datasets will be taken from organismal and evolutionary biology, biodiversity science, ecology, and environmental science. 
 </p>
 
 <p>
-Data Carpentry's teaching is hands-on, so participants are required to bring their own laptops.  (We will provide instructions on setting up the required software several days in advance, and NESCent does have a few loaner laptops if you can't bring one.) <em>There are no pre-requisites, and we will assume no prior knowledge about the tools.</em>
+Data Carpentry's teaching is hands-on, so participants are required to bring their own laptops.  (We will provide instructions on setting up the required software several days in advance <em>There are no pre-requisites, and we will assume no prior knowledge about the tools.</em>
 </p>
 
 <p>Updates will be posted to this website as they become available.</p>
@@ -82,7 +82,7 @@ Data Carpentry's teaching is hands-on, so participants are required to bring the
   Get directions with
   <a href="http://www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
   or
-  <a href="http://maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.  Within Mann Library, B30A Classroom is in the basement as you exit the elevators.  See <a href="http://smartmap.mannlib.cornell.edu/location/b30a" target="_blank"> the floor plan </a>. 
+  <a href="http://maps.google.com/maps?q={{ page.latlng }}">Google Maps</a> The class will be in 2119 Hornbake South (enter through the doors closest to Campus Drive, not the main doors to the Hornbake Library).  
 </p>
 {% endif %}
 
@@ -91,7 +91,7 @@ Data Carpentry's teaching is hands-on, so participants are required to bring the
 -->
 <p>
   <strong>Requirements:</strong>
-  Participants must bring a laptop with a few specific software packages installed. If you will be traveling from out of town, you will need to make your own travel arrangements; note also that the course dates are right before the start of Duke graduation weekend, and therefore <strong>please secure needed accomodations before registering!</strong>
+  Participants must bring a laptop with a few specific software packages installed.
 </p>
 
 <!--
@@ -109,17 +109,14 @@ Data Carpentry's teaching is hands-on, so participants are required to bring the
   for questions and information not covered here.
 </p>
 
-<p><strong>Twitter</strong>: #datacarpentry</p>
-<p><strong>Etherpad</strong>: <a href="https://etherpad.mozilla.org/nescent-2014-05">https://etherpad.mozilla.org/nescent-2014-05</a></p>
+<p><strong>Twitter</strong>: #umddc</p>
+<p><strong>Etherpad</strong>: <a href="https://etherpad.mozilla.org/umd-2015-01-15">https://etherpad.mozilla.org/umd-2015-01-15</a></p>
 
 <h2>Acknowledgements &amp; Support</h2>
 <div class="pull-right" style="max-width: 320px; padding-left: 6px;">
-  <a href="http://dataone.org" title="DataONE">
-    <img alt="DataONE Logo" src="{{page.root}}/img/DataONE_LOGO.jpg" width="auto"/>
-  </a>
 </div>
 <p>
-Data Carpentry is a partnership of several NSF-funded <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">BIO</a> Centers (<a href="http://nescent.org" target="_blank">NESCent</a>, <a href="http://iplantcollaborative.org" target="_blank">iPlant</a>, <a href="http://idigbio.org" target="_blank">iDigBio</a>, <a href="http://beacon-center.org/" target="_blank">BEACON</a> and <a href="http://sesync.org" target="_blank">SESYNC</a>) and <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>, and is sponsored by the <a href="http://dataone.org" target="_blank">Data Observation Network for Earth</a> (DataONE). The structure and objectives of the curriculum as well as the teaching style are informed by <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>.
+<a href="http://datacarpentry.org">Data Carpentry</a> is a partnership of several NSF-funded <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">BIO</a> Centers (<a href="http://nescent.org" target="_blank">NESCent</a>, <a href="http://iplantcollaborative.org" target="_blank">iPlant</a>, <a href="http://idigbio.org" target="_blank">iDigBio</a>, <a href="http://beacon-center.org/" target="_blank">BEACON</a> and <a href="http://sesync.org" target="_blank">SESYNC</a>) and <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>The structure and objectives of the curriculum as well as the teaching style are informed by <a href="http://software-carpentry.org" target="_blank">Software Carpentry</a>.
 </p>
 
 {% if page.eventbrite %}
@@ -146,7 +143,7 @@ Tuition for the course is free, but prior registration is required for attending
   <tr> <td>Friday</td> <td>09:00</td>  <td>Managing data with SQL</td> </tr>
   <tr> <td></td>        <td></td>       <td>Coffee will be served at 10:30.</td> </tr>
   <tr> <td></td>        <td>12:00</td>  <td>Lunch break</td> </tr>
-  <tr> <td></td>        <td>13:00</td>  <td>Automating data workflows</td> </tr>
+  <tr> <td></td>        <td>13:00</td>  <td>Bringing it all together, an end-to-end workflow</td> </tr>
   <tr> <td></td>        <td></td>       <td>Coffee will be served at 14:30.</td> </tr>
   <tr> <td></td>        <td>16:00</td>  <td>Wrap-up</td> </tr>
 </table>
