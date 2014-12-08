@@ -1,4 +1,4 @@
-2015-01-15-cornell
+2015-01-15-umd
 ==================
 
-Cornell University Data Carpentry Bootcamp
+University of Maryland (iSchool/SESYNC) Data Carpentry
